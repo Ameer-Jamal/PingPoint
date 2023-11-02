@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3158AE502AF4056700E44C07 /* PingPointApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3158AE4F2AF4056700E44C07 /* PingPointApp.swift */; };
+		3158AE522AF4056700E44C07 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3158AE512AF4056700E44C07 /* ContentView.swift */; };
+		3158AE542AF4056800E44C07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3158AE532AF4056800E44C07 /* Assets.xcassets */; };
+		3158AE582AF4056800E44C07 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3158AE572AF4056800E44C07 /* Preview Assets.xcassets */; };
+		3158AE622AF4056900E44C07 /* PingPointTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3158AE612AF4056900E44C07 /* PingPointTests.swift */; };
+		3158AE6C2AF4056900E44C07 /* PingPointUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3158AE6B2AF4056900E44C07 /* PingPointUITests.swift */; };
+		3158AE6E2AF4056900E44C07 /* PingPointUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3158AE6D2AF4056900E44C07 /* PingPointUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3158AE5E2AF4056900E44C07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3158AE442AF4056600E44C07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3158AE4B2AF4056700E44C07;
+			remoteInfo = PingPoint;
+		};
+		3158AE682AF4056900E44C07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3158AE442AF4056600E44C07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3158AE4B2AF4056700E44C07;
+			remoteInfo = PingPoint;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3158AE4C2AF4056700E44C07 /* PingPoint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PingPoint.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3158AE4F2AF4056700E44C07 /* PingPointApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PingPointApp.swift; sourceTree = "<group>"; };
+		3158AE512AF4056700E44C07 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3158AE532AF4056800E44C07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3158AE552AF4056800E44C07 /* PingPoint.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PingPoint.entitlements; sourceTree = "<group>"; };
+		3158AE572AF4056800E44C07 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3158AE5D2AF4056900E44C07 /* PingPointTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PingPointTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3158AE612AF4056900E44C07 /* PingPointTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PingPointTests.swift; sourceTree = "<group>"; };
+		3158AE672AF4056900E44C07 /* PingPointUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PingPointUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3158AE6B2AF4056900E44C07 /* PingPointUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PingPointUITests.swift; sourceTree = "<group>"; };
+		3158AE6D2AF4056900E44C07 /* PingPointUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PingPointUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3158AE492AF4056700E44C07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3158AE5A2AF4056900E44C07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3158AE642AF4056900E44C07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3158AE432AF4056600E44C07 = {
+			isa = PBXGroup;
+			children = (
+				3158AE4E2AF4056700E44C07 /* PingPoint */,
+				3158AE602AF4056900E44C07 /* PingPointTests */,
+				3158AE6A2AF4056900E44C07 /* PingPointUITests */,
+				3158AE4D2AF4056700E44C07 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3158AE4D2AF4056700E44C07 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3158AE4C2AF4056700E44C07 /* PingPoint.app */,
+				3158AE5D2AF4056900E44C07 /* PingPointTests.xctest */,
+				3158AE672AF4056900E44C07 /* PingPointUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3158AE4E2AF4056700E44C07 /* PingPoint */ = {
+			isa = PBXGroup;
+			children = (
+				3158AE4F2AF4056700E44C07 /* PingPointApp.swift */,
+				3158AE512AF4056700E44C07 /* ContentView.swift */,
+				3158AE532AF4056800E44C07 /* Assets.xcassets */,
+				3158AE552AF4056800E44C07 /* PingPoint.entitlements */,
+				3158AE562AF4056800E44C07 /* Preview Content */,
+			);
+			path = PingPoint;
+			sourceTree = "<group>";
+		};
+		3158AE562AF4056800E44C07 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3158AE572AF4056800E44C07 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3158AE602AF4056900E44C07 /* PingPointTests */ = {
+			isa = PBXGroup;
+			children = (
+				3158AE612AF4056900E44C07 /* PingPointTests.swift */,
+			);
+			path = PingPointTests;
+			sourceTree = "<group>";
+		};
+		3158AE6A2AF4056900E44C07 /* PingPointUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3158AE6B2AF4056900E44C07 /* PingPointUITests.swift */,
+				3158AE6D2AF4056900E44C07 /* PingPointUITestsLaunchTests.swift */,
+			);
+			path = PingPointUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3158AE4B2AF4056700E44C07 /* PingPoint */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3158AE712AF4056900E44C07 /* Build configuration list for PBXNativeTarget "PingPoint" */;
+			buildPhases = (
+				3158AE482AF4056700E44C07 /* Sources */,
+				3158AE492AF4056700E44C07 /* Frameworks */,
+				3158AE4A2AF4056700E44C07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PingPoint;
+			productName = PingPoint;
+			productReference = 3158AE4C2AF4056700E44C07 /* PingPoint.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3158AE5C2AF4056900E44C07 /* PingPointTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3158AE742AF4056900E44C07 /* Build configuration list for PBXNativeTarget "PingPointTests" */;
+			buildPhases = (
+				3158AE592AF4056900E44C07 /* Sources */,
+				3158AE5A2AF4056900E44C07 /* Frameworks */,
+				3158AE5B2AF4056900E44C07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3158AE5F2AF4056900E44C07 /* PBXTargetDependency */,
+			);
+			name = PingPointTests;
+			productName = PingPointTests;
+			productReference = 3158AE5D2AF4056900E44C07 /* PingPointTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3158AE662AF4056900E44C07 /* PingPointUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3158AE772AF4056900E44C07 /* Build configuration list for PBXNativeTarget "PingPointUITests" */;
+			buildPhases = (
+				3158AE632AF4056900E44C07 /* Sources */,
+				3158AE642AF4056900E44C07 /* Frameworks */,
+				3158AE652AF4056900E44C07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3158AE692AF4056900E44C07 /* PBXTargetDependency */,
+			);
+			name = PingPointUITests;
+			productName = PingPointUITests;
+			productReference = 3158AE672AF4056900E44C07 /* PingPointUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3158AE442AF4056600E44C07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					3158AE4B2AF4056700E44C07 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					3158AE5C2AF4056900E44C07 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 3158AE4B2AF4056700E44C07;
+					};
+					3158AE662AF4056900E44C07 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 3158AE4B2AF4056700E44C07;
+					};
+				};
+			};
+			buildConfigurationList = 3158AE472AF4056600E44C07 /* Build configuration list for PBXProject "PingPoint" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3158AE432AF4056600E44C07;
+			productRefGroup = 3158AE4D2AF4056700E44C07 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3158AE4B2AF4056700E44C07 /* PingPoint */,
+				3158AE5C2AF4056900E44C07 /* PingPointTests */,
+				3158AE662AF4056900E44C07 /* PingPointUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3158AE4A2AF4056700E44C07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3158AE582AF4056800E44C07 /* Preview Assets.xcassets in Resources */,
+				3158AE542AF4056800E44C07 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3158AE5B2AF4056900E44C07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3158AE652AF4056900E44C07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3158AE482AF4056700E44C07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3158AE522AF4056700E44C07 /* ContentView.swift in Sources */,
+				3158AE502AF4056700E44C07 /* PingPointApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3158AE592AF4056900E44C07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3158AE622AF4056900E44C07 /* PingPointTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3158AE632AF4056900E44C07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3158AE6C2AF4056900E44C07 /* PingPointUITests.swift in Sources */,
+				3158AE6E2AF4056900E44C07 /* PingPointUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3158AE5F2AF4056900E44C07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3158AE4B2AF4056700E44C07 /* PingPoint */;
+			targetProxy = 3158AE5E2AF4056900E44C07 /* PBXContainerItemProxy */;
+		};
+		3158AE692AF4056900E44C07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3158AE4B2AF4056700E44C07 /* PingPoint */;
+			targetProxy = 3158AE682AF4056900E44C07 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3158AE6F2AF4056900E44C07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3158AE702AF4056900E44C07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		3158AE722AF4056900E44C07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PingPoint/PingPoint.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PingPoint/Preview Content\"";
+				DEVELOPMENT_TEAM = TGG55Y44CP;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ameerjamal.PingPoint;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3158AE732AF4056900E44C07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PingPoint/PingPoint.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PingPoint/Preview Content\"";
+				DEVELOPMENT_TEAM = TGG55Y44CP;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ameerjamal.PingPoint;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3158AE752AF4056900E44C07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TGG55Y44CP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ameerjamal.PingPointTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PingPoint.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PingPoint";
+			};
+			name = Debug;
+		};
+		3158AE762AF4056900E44C07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TGG55Y44CP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ameerjamal.PingPointTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PingPoint.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PingPoint";
+			};
+			name = Release;
+		};
+		3158AE782AF4056900E44C07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TGG55Y44CP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ameerjamal.PingPointUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PingPoint;
+			};
+			name = Debug;
+		};
+		3158AE792AF4056900E44C07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TGG55Y44CP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ameerjamal.PingPointUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PingPoint;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3158AE472AF4056600E44C07 /* Build configuration list for PBXProject "PingPoint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3158AE6F2AF4056900E44C07 /* Debug */,
+				3158AE702AF4056900E44C07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3158AE712AF4056900E44C07 /* Build configuration list for PBXNativeTarget "PingPoint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3158AE722AF4056900E44C07 /* Debug */,
+				3158AE732AF4056900E44C07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3158AE742AF4056900E44C07 /* Build configuration list for PBXNativeTarget "PingPointTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3158AE752AF4056900E44C07 /* Debug */,
+				3158AE762AF4056900E44C07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3158AE772AF4056900E44C07 /* Build configuration list for PBXNativeTarget "PingPointUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3158AE782AF4056900E44C07 /* Debug */,
+				3158AE792AF4056900E44C07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3158AE442AF4056600E44C07 /* Project object */;
+}
