@@ -1,5 +1,7 @@
 # PingPoint
-
+<p align="center">
+  <img src="https://static.thenounproject.com/png/237669-200.png" alt="PingPoint Icon"/>
+</p>
 PingPoint is a macOS status bar app that monitors network connectivity and provides immediate visual feedback on your current network status through a color-coded icon. 
 <br><br>Say goodbye to the frustration of not knowing whether your internet is down or why your video call isn't working. With PingPoint, you'll never have to guess about your connection issues again – it's like having a network watchdog right in your menu bar.
 
