@@ -1,0 +1,98 @@
+2023-11-02 19:47:01 +0000  Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x2ffa52b90; archive(resolved)="<IDEArchive: 0x60007ead0960>", distributionTask(resolved)="2", distributionDestination(resolved)="1", distributionMethod(resolved)="<IDEDistributionMethodDevelopmentSignedMac: 0x6000542fb1a0>", team(resolved)="<IDEProvisioningDisambiguatableBasicTeam: 0x6000159da440; teamID='6F8256W8R4', teamName='ETQ, LLC', teamType='Company', username='ajamal@etq.com', isFreeProvisioningTeam='0'>">
+	Chain (12, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x2ffa52b90; archive = "<IDEArchive: 0x60007ead0960>", distributionMethod="<IDEDistributionMethodDevelopmentSignedMac: 0x6000542fb1a0>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x6000159da440; teamID='6F8256W8R4', teamName='ETQ, LLC', teamType='Company', username='ajamal@etq.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionProcessingPipelineContext: 0x4543abe90; archive = "<IDEArchive: 0x60007ead0960>", distributionMethod="<IDEDistributionMethodDevelopmentSignedMac: 0x6000542fb1a0>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x6000159da440; teamID='6F8256W8R4', teamName='ETQ, LLC', teamType='Company', username='ajamal@etq.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x2e73f9fc0; archive = "<IDEArchive: 0x60007ead0960>", distributionMethod="<IDEDistributionMethodDevelopmentSignedMac: 0x6000542fb1a0>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x6000159da440; teamID='6F8256W8R4', teamName='ETQ, LLC', teamType='Company', username='ajamal@etq.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x4544ca770; archive = "<IDEArchive: 0x60007ead0960>", distributionMethod="<IDEDistributionMethodDevelopmentSignedMac: 0x6000542fb1a0>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x6000159da440; teamID='6F8256W8R4', teamName='ETQ, LLC', teamType='Company', username='ajamal@etq.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x2dcc41c30; archive = "<IDEArchive: 0x60007ead0960>", distributionMethod="<IDEDistributionMethodDevelopmentSignedMac: 0x6000542fb1a0>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x6000159da440; teamID='6F8256W8R4', teamName='ETQ, LLC', teamType='Company', username='ajamal@etq.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x4544ca540; archive = "<IDEArchive: 0x60007ead0960>", distributionMethod="<IDEDistributionMethodDevelopmentSignedMac: 0x6000542fb1a0>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x6000159da440; teamID='6F8256W8R4', teamName='ETQ, LLC', teamType='Company', username='ajamal@etq.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x4544ca310; archive = "<IDEArchive: 0x60007ead0960>", distributionMethod="<IDEDistributionMethodDevelopmentSignedMac: 0x6000542fb1a0>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x6000159da440; teamID='6F8256W8R4', teamName='ETQ, LLC', teamType='Company', username='ajamal@etq.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x4544ca0e0; archive = "<IDEArchive: 0x60007ead0960>", distributionMethod="<IDEDistributionMethodDevelopmentSignedMac: 0x6000542fb1a0>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x6000159da440; teamID='6F8256W8R4', teamName='ETQ, LLC', teamType='Company', username='ajamal@etq.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x454461b90; archive = "<IDEArchive: 0x60007ead0960>", distributionMethod="<IDEDistributionMethodDevelopmentSignedMac: 0x6000542fb1a0>", team="(null)">
+	<IDEDistributionContext: 0x4544c9410; archive = "<IDEArchive: 0x60007ead0960>", distributionMethod="<IDEDistributionMethodDevelopmentSignedMac: 0x6000542fb1a0>", team="(null)">
+	<IDEDistributionContext: 0x29ca2d8f0; archive = "<IDEArchive: 0x60007ead0960>", distributionMethod="(null)", team="(null)">
+	<IDEDistributionContext: 0x2dcce9b60; archive = "<IDEArchive: 0x60007ead0960>", distributionMethod="(null)", team="(null)">
+</IDEDistributionProcessingPipelineContext: 0x2ffa52b90>
+2023-11-02 19:47:01 +0000  Processing step: IDEDistributionCreateDestRootStep
+2023-11-02 19:47:01 +0000  Processing step: IDEDistributionCopyItemStep
+2023-11-02 19:47:01 +0000  Running /usr/bin/ditto '-V' '/Users/ajamal/Library/Developer/Xcode/Archives/2023-11-02/PingPoint 11-2-23, 12.46 PM.xcarchive/Products/Applications/PingPoint.app' '/var/folders/3_/b6631xmx1nj8yg5_960znnnr0000gp/T/XcodeDistPipeline.~~~L11N2v/Root/Applications/PingPoint.app'
+2023-11-02 19:47:01 +0000  >>> Copying /Users/ajamal/Library/Developer/Xcode/Archives/2023-11-02/PingPoint 11-2-23, 12.46 PM.xcarchive/Products/Applications/PingPoint.app 
+2023-11-02 19:47:01 +0000  copying file ./Contents/_CodeSignature/CodeResources ... 
+2023-11-02 19:47:01 +0000  2200 bytes for ./Contents/_CodeSignature/CodeResources
+2023-11-02 19:47:01 +0000  copying file ./Contents/MacOS/PingPoint ... 
+2023-11-02 19:47:01 +0000  232080 bytes for ./Contents/MacOS/PingPoint
+2023-11-02 19:47:01 +0000  copying file ./Contents/Info.plist ... 
+2023-11-02 19:47:01 +0000  2031 bytes for ./Contents/Info.plist
+2023-11-02 19:47:01 +0000  copying file ./Contents/PkgInfo ... 
+2023-11-02 19:47:01 +0000  8 bytes for ./Contents/PkgInfo
+2023-11-02 19:47:01 +0000  /usr/bin/ditto exited with 0
+2023-11-02 19:47:01 +0000  Processing step: IDEDistributionEmbedProfileStep
+2023-11-02 19:47:01 +0000  Skipping profile for item: <IDEDistributionItem: 0x60007eab2e80; bundleID='com.ameerjamal.PingPoint', path='<DVTFilePath:0x600092852530:'/Users/ajamal/Library/Developer/Xcode/Archives/2023-11-02/PingPoint 11-2-23, 12.46 PM.xcarchive/Products/Applications/PingPoint.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60002673d590; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60001b588c00; name='Apple Development: Ameer Jamal (9YFKRTJK72)', hash='58F45D6910FD32CD72D27D97E6C04D6C6A346DCC', serialNumber='2A0B9C3F519E691EA1FFB757592A1610', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-11-02 19:36:21 +0000''>', entitlements='{
+    "com.apple.security.app-sandbox" = 1;
+    "com.apple.security.files.user-selected.read-only" = 1;
+}', teamID='6F8256W8R4', identifier='com.ameerjamal.PingPoint', executablePath='<DVTFilePath:0x600092b60070:'/Users/ajamal/Library/Developer/Xcode/Archives/2023-11-02/PingPoint 11-2-23, 12.46 PM.xcarchive/Products/Applications/PingPoint.app/Contents/MacOS/PingPoint'>', hardenedRuntime='1'>'>
+2023-11-02 19:47:01 +0000  Processing step: IDEDistributionInfoPlistStep
+2023-11-02 19:47:01 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2023-11-02 19:47:01 +0000  Processing step: IDEDistributionAppThinningPlistStep
+2023-11-02 19:47:01 +0000  Processing step: IDEDistributionCompileBitcodeStep
+2023-11-02 19:47:01 +0000  Skipping step: IDEDistributionCompileBitcodeStep because it said so
+2023-11-02 19:47:01 +0000  Processing step: IDEDistributionCodeSlimmingStep
+2023-11-02 19:47:01 +0000  Processing step: IDEDistributionCopyBCSymbolMapsStep
+2023-11-02 19:47:01 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2023-11-02 19:47:01 +0000  Processing step: IDEDistributionSymbolsStep
+2023-11-02 19:47:01 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2023-11-02 19:47:01 +0000  Processing step: IDEDistributionAppThinningStep
+2023-11-02 19:47:01 +0000  Skipping step: IDEDistributionAppThinningStep because it said so
+2023-11-02 19:47:01 +0000  Processing step: IDEDistributionArchThinningStep
+2023-11-02 19:47:01 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/3_/b6631xmx1nj8yg5_960znnnr0000gp/T/XcodeDistPipeline.~~~L11N2v/Root/Applications/PingPoint.app/Contents/MacOS/PingPoint' '-verify_arch' 'arm64e'
+2023-11-02 19:47:01 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2023-11-02 19:47:01 +0000  Skipping architecture thinning for item "PingPoint" because arch "arm64e" wasn't found
+2023-11-02 19:47:01 +0000  Processing step: IDEDistributionODRStep
+2023-11-02 19:47:01 +0000  Processing step: IDEDistributionStripXattrsStep
+2023-11-02 19:47:01 +0000  Skipping stripping extended attributes because the codesign step will strip them.
+2023-11-02 19:47:01 +0000  Processing step: IDEDistributionCodesignStep
+2023-11-02 19:47:01 +0000  Entitlements for <IDEDistributionItem: 0x60007eab2e80; bundleID='com.ameerjamal.PingPoint', path='<DVTFilePath:0x600092852530:'/Users/ajamal/Library/Developer/Xcode/Archives/2023-11-02/PingPoint 11-2-23, 12.46 PM.xcarchive/Products/Applications/PingPoint.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60002673d590; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60001b588c00; name='Apple Development: Ameer Jamal (9YFKRTJK72)', hash='58F45D6910FD32CD72D27D97E6C04D6C6A346DCC', serialNumber='2A0B9C3F519E691EA1FFB757592A1610', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-11-02 19:36:21 +0000''>', entitlements='{
+    "com.apple.security.app-sandbox" = 1;
+    "com.apple.security.files.user-selected.read-only" = 1;
+}', teamID='6F8256W8R4', identifier='com.ameerjamal.PingPoint', executablePath='<DVTFilePath:0x600092b60070:'/Users/ajamal/Library/Developer/Xcode/Archives/2023-11-02/PingPoint 11-2-23, 12.46 PM.xcarchive/Products/Applications/PingPoint.app/Contents/MacOS/PingPoint'>', hardenedRuntime='1'>'>: {
+    "com.apple.security.app-sandbox" = 1;
+    "com.apple.security.files.user-selected.read-only" = 1;
+}
+2023-11-02 19:47:01 +0000  Associated App Clip Identifiers Filter: Skipping because "com.apple.developer.associated-appclip-app-identifiers" is not present
+2023-11-02 19:47:01 +0000  Entitlements for <IDEDistributionItem: 0x60007eab2e80; bundleID='com.ameerjamal.PingPoint', path='<DVTFilePath:0x600092852530:'/Users/ajamal/Library/Developer/Xcode/Archives/2023-11-02/PingPoint 11-2-23, 12.46 PM.xcarchive/Products/Applications/PingPoint.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60002673d590; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600027518780; name='Apple Development: Ameer Jamal (9YFKRTJK72)', hash='58F45D6910FD32CD72D27D97E6C04D6C6A346DCC', serialNumber='2A0B9C3F519E691EA1FFB757592A1610', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-11-02 19:36:21 +0000''>', entitlements='{
+    "com.apple.security.app-sandbox" = 1;
+    "com.apple.security.files.user-selected.read-only" = 1;
+}', teamID='6F8256W8R4', identifier='com.ameerjamal.PingPoint', executablePath='<DVTFilePath:0x600092b60070:'/Users/ajamal/Library/Developer/Xcode/Archives/2023-11-02/PingPoint 11-2-23, 12.46 PM.xcarchive/Products/Applications/PingPoint.app/Contents/MacOS/PingPoint'>', hardenedRuntime='1'>'> are: {
+    "com.apple.security.app-sandbox" = 1;
+    "com.apple.security.files.user-selected.read-only" = 1;
+}
+2023-11-02 19:47:01 +0000  Writing entitlements for <IDEDistributionItem: 0x60007eab2e80; bundleID='com.ameerjamal.PingPoint', path='<DVTFilePath:0x600092852530:'/Users/ajamal/Library/Developer/Xcode/Archives/2023-11-02/PingPoint 11-2-23, 12.46 PM.xcarchive/Products/Applications/PingPoint.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60002673d590; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60002751b180; name='Apple Development: Ameer Jamal (9YFKRTJK72)', hash='58F45D6910FD32CD72D27D97E6C04D6C6A346DCC', serialNumber='2A0B9C3F519E691EA1FFB757592A1610', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-11-02 19:36:21 +0000''>', entitlements='{
+    "com.apple.security.app-sandbox" = 1;
+    "com.apple.security.files.user-selected.read-only" = 1;
+}', teamID='6F8256W8R4', identifier='com.ameerjamal.PingPoint', executablePath='<DVTFilePath:0x600092b60070:'/Users/ajamal/Library/Developer/Xcode/Archives/2023-11-02/PingPoint 11-2-23, 12.46 PM.xcarchive/Products/Applications/PingPoint.app/Contents/MacOS/PingPoint'>', hardenedRuntime='1'>'> to: /var/folders/3_/b6631xmx1nj8yg5_960znnnr0000gp/T/XcodeDistPipeline.~~~L11N2v/entitlements~~~MYvF9O
+2023-11-02 19:47:01 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '58F45D6910FD32CD72D27D97E6C04D6C6A346DCC' '--entitlements' '/var/folders/3_/b6631xmx1nj8yg5_960znnnr0000gp/T/XcodeDistPipeline.~~~L11N2v/entitlements~~~MYvF9O' '--generate-entitlement-der' '--preserve-metadata=identifier,flags,runtime' '/var/folders/3_/b6631xmx1nj8yg5_960znnnr0000gp/T/XcodeDistPipeline.~~~L11N2v/Root/Applications/PingPoint.app'
+2023-11-02 19:47:01 +0000  /var/folders/3_/b6631xmx1nj8yg5_960znnnr0000gp/T/XcodeDistPipeline.~~~L11N2v/Root/Applications/PingPoint.app: replacing existing signature
+2023-11-02 19:47:09 +0000  /var/folders/3_/b6631xmx1nj8yg5_960znnnr0000gp/T/XcodeDistPipeline.~~~L11N2v/Root/Applications/PingPoint.app: signed app bundle with Mach-O universal (x86_64 arm64) [com.ameerjamal.PingPoint]
+2023-11-02 19:47:09 +0000  /usr/bin/codesign exited with 0
+2023-11-02 19:47:09 +0000  Processing step: IDEDistributionZipODRItemStep
+2023-11-02 19:47:09 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2023-11-02 19:47:09 +0000  Processing step: IDEDistributionSkipPackagingStep
+2023-11-02 19:47:09 +0000  Processing step: IDEDistributionAppStoreInformationStep
+2023-11-02 19:47:09 +0000  Skipping step: IDEDistributionAppStoreInformationStep because it said so
+2023-11-02 19:47:09 +0000  Processing step: IDEDistributionGenerateProcessedDistributionItems
+2023-11-02 19:47:09 +0000  IDEDistributionItem init <DVTFilePath:0x600092836290:'/var/folders/3_/b6631xmx1nj8yg5_960znnnr0000gp/T/XcodeDistPipeline.~~~L11N2v/Root/Applications/PingPoint.app'>
+2023-11-02 19:47:09 +0000  [OPTIONAL] Didn't find embedded provisioning profile for <DVTFilePath:0x600092836290:'/var/folders/3_/b6631xmx1nj8yg5_960znnnr0000gp/T/XcodeDistPipeline.~~~L11N2v/Root/Applications/PingPoint.app'>: Error Domain=NSCocoaErrorDomain Code=4 "No file at <DVTFilePath:0x600012c3d980:'/var/folders/3_/b6631xmx1nj8yg5_960znnnr0000gp/T/XcodeDistPipeline.~~~L11N2v/Root/Applications/PingPoint.app/Contents/embedded.provisionprofile'>" UserInfo={NSLocalizedDescription=No file at <DVTFilePath:0x600012c3d980:'/var/folders/3_/b6631xmx1nj8yg5_960znnnr0000gp/T/XcodeDistPipeline.~~~L11N2v/Root/Applications/PingPoint.app/Contents/embedded.provisionprofile'>}
+2023-11-02 19:47:09 +0000  Processing step: IDEDistributionCreateManifestStep
+2023-11-02 19:47:09 +0000  Skipping step: IDEDistributionCreateManifestStep because it said so

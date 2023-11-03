@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		3158AE502AF4056700E44C07 /* PingPointApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3158AE4F2AF4056700E44C07 /* PingPointApp.swift */; };
-		3158AE522AF4056700E44C07 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3158AE512AF4056700E44C07 /* ContentView.swift */; };
 		3158AE542AF4056800E44C07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3158AE532AF4056800E44C07 /* Assets.xcassets */; };
-		3158AE582AF4056800E44C07 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3158AE572AF4056800E44C07 /* Preview Assets.xcassets */; };
 		3158AE622AF4056900E44C07 /* PingPointTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3158AE612AF4056900E44C07 /* PingPointTests.swift */; };
 		3158AE6C2AF4056900E44C07 /* PingPointUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3158AE6B2AF4056900E44C07 /* PingPointUITests.swift */; };
 		3158AE6E2AF4056900E44C07 /* PingPointUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3158AE6D2AF4056900E44C07 /* PingPointUITestsLaunchTests.swift */; };
+		3158AE7B2AF40E1500E44C07 /* StatusBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3158AE7A2AF40E1500E44C07 /* StatusBarController.swift */; };
+		3158AE7F2AF412CD00E44C07 /* NetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3158AE7E2AF412CD00E44C07 /* NetworkMonitor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,15 +36,15 @@
 /* Begin PBXFileReference section */
 		3158AE4C2AF4056700E44C07 /* PingPoint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PingPoint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3158AE4F2AF4056700E44C07 /* PingPointApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PingPointApp.swift; sourceTree = "<group>"; };
-		3158AE512AF4056700E44C07 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3158AE532AF4056800E44C07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3158AE552AF4056800E44C07 /* PingPoint.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PingPoint.entitlements; sourceTree = "<group>"; };
-		3158AE572AF4056800E44C07 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3158AE5D2AF4056900E44C07 /* PingPointTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PingPointTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3158AE612AF4056900E44C07 /* PingPointTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PingPointTests.swift; sourceTree = "<group>"; };
 		3158AE672AF4056900E44C07 /* PingPointUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PingPointUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3158AE6B2AF4056900E44C07 /* PingPointUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PingPointUITests.swift; sourceTree = "<group>"; };
 		3158AE6D2AF4056900E44C07 /* PingPointUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PingPointUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3158AE7A2AF40E1500E44C07 /* StatusBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarController.swift; sourceTree = "<group>"; };
+		3158AE7E2AF412CD00E44C07 /* NetworkMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMonitor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,10 +96,11 @@
 			isa = PBXGroup;
 			children = (
 				3158AE4F2AF4056700E44C07 /* PingPointApp.swift */,
-				3158AE512AF4056700E44C07 /* ContentView.swift */,
 				3158AE532AF4056800E44C07 /* Assets.xcassets */,
 				3158AE552AF4056800E44C07 /* PingPoint.entitlements */,
 				3158AE562AF4056800E44C07 /* Preview Content */,
+				3158AE7A2AF40E1500E44C07 /* StatusBarController.swift */,
+				3158AE7E2AF412CD00E44C07 /* NetworkMonitor.swift */,
 			);
 			path = PingPoint;
 			sourceTree = "<group>";
@@ -107,7 +108,6 @@
 		3158AE562AF4056800E44C07 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				3158AE572AF4056800E44C07 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -233,7 +233,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3158AE582AF4056800E44C07 /* Preview Assets.xcassets in Resources */,
 				3158AE542AF4056800E44C07 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,7 +258,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3158AE522AF4056700E44C07 /* ContentView.swift in Sources */,
+				3158AE7F2AF412CD00E44C07 /* NetworkMonitor.swift in Sources */,
+				3158AE7B2AF40E1500E44C07 /* StatusBarController.swift in Sources */,
 				3158AE502AF4056700E44C07 /* PingPointApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +416,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = PingPoint/PingPoint.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -424,6 +425,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_LSUIElement = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -454,6 +457,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = PingPoint/PingPoint.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -462,6 +466,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_LSUIElement = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
