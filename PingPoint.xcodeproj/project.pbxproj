@@ -14,6 +14,7 @@
 		3158AE6E2AF4056900E44C07 /* PingPointUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3158AE6D2AF4056900E44C07 /* PingPointUITestsLaunchTests.swift */; };
 		3158AE7B2AF40E1500E44C07 /* StatusBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3158AE7A2AF40E1500E44C07 /* StatusBarController.swift */; };
 		3158AE7F2AF412CD00E44C07 /* NetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3158AE7E2AF412CD00E44C07 /* NetworkMonitor.swift */; };
+		31C1D70F2AF509A2005A9F4A /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C1D70E2AF509A2005A9F4A /* LocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,8 @@
 		3158AE6D2AF4056900E44C07 /* PingPointUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PingPointUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		3158AE7A2AF40E1500E44C07 /* StatusBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarController.swift; sourceTree = "<group>"; };
 		3158AE7E2AF412CD00E44C07 /* NetworkMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMonitor.swift; sourceTree = "<group>"; };
+		31C1D70D2AF508C8005A9F4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		31C1D70E2AF509A2005A9F4A /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +98,8 @@
 		3158AE4E2AF4056700E44C07 /* PingPoint */ = {
 			isa = PBXGroup;
 			children = (
+				31C1D70D2AF508C8005A9F4A /* Info.plist */,
+				31C1D70E2AF509A2005A9F4A /* LocationManager.swift */,
 				3158AE4F2AF4056700E44C07 /* PingPointApp.swift */,
 				3158AE532AF4056800E44C07 /* Assets.xcassets */,
 				3158AE552AF4056800E44C07 /* PingPoint.entitlements */,
@@ -258,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31C1D70F2AF509A2005A9F4A /* LocationManager.swift in Sources */,
 				3158AE7F2AF412CD00E44C07 /* NetworkMonitor.swift in Sources */,
 				3158AE7B2AF40E1500E44C07 /* StatusBarController.swift in Sources */,
 				3158AE502AF4056700E44C07 /* PingPointApp.swift in Sources */,
@@ -425,6 +431,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PingPoint/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_LSUIElement = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -466,6 +473,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PingPoint/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_LSUIElement = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;

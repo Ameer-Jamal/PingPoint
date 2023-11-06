@@ -21,10 +21,24 @@ struct PingPointApp: App {
 
 class AppDelegate: NSObject, NSApplicationDelegate {
     var statusBarController: StatusBarController?
+    var locationManager: LocationManager?
 
     func applicationDidFinishLaunching(_ notification: Notification) {
-        DispatchQueue.main.async {
-            self.statusBarController = StatusBarController()
+        locationManager = LocationManager()
+        locationManager?.checkLocationAuthorization { [weak self] authorized in
+            guard let strongSelf = self else { return }
+            if authorized {
+                DispatchQueue.main.async {
+                    // Proceed with creating the StatusBarController now that we have location authorization
+                    strongSelf.statusBarController = StatusBarController(locationManager: strongSelf.locationManager)
+                }
+            } else {
+                // Handle the case where location authorization was not granted
+                DispatchQueue.main.async {
+                    strongSelf.locationManager?.showLocationServicesDeniedAlert()
+                    strongSelf.statusBarController = StatusBarController(locationManager: strongSelf.locationManager)
+                }
+            }
         }
     }
 }
